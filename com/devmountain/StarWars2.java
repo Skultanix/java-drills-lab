@@ -14,6 +14,15 @@ public class StarWars2 {
             System.out.println("They call him " + var1 + " " + var2 + ".");
             System.out.println(var1 + " of " + var4 + " was born in " + var3 + " BBY.");
             System.out.println(var1 + " is " + var5 + " meters tall and weighs " + var6 + " kilos.");
+            //Part 2
+            Float purse = 150.0f;
+            purse = (float)((double)purse - 24.3);
+            purse -= 45.0f;
+            purse *= 2.0f;
+            purse -= (purse *= 0.1f);
+            System.out.println("Remaining balance in purse is: "+purse+".");
+            //Part 3
+
         };
 
 };
